@@ -159,17 +159,15 @@ nav a:hover{
 	height: 130px;
 	width: 120px;
 	background-color: blue;
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin: 30px 20px 20px 20px;
 	justify-content: space-around;
 }
 .widget_body_aside2{
-	margin-top: 30px;
 	display: inline-flex;
 	height: 130px;
 	width: 120px;
 	background-color: blue;
-	margin-bottom: 20px;
+	margin: 30px 20px 20px 20px;
 	justify-content: space-around;
 }
 .widget_body_content div{
@@ -223,4 +221,57 @@ article{
 	margin-right: 30px;
 	flex:1;
 	min-width: 300px;
+}
+footer{
+	background-color: #1e1e1e;
+	display: flex;
+	justify-content: center;
+}
+.footer_menu{
+	display: flex;
+	flex: 1;
+}
+.footer_banner1,.footer_banner2,.footer_banner3{
+	display: flex;
+	flex: 1;
+	padding: 30px
+}
+.footer_banner1{
+	background-color: #39aae1;
+}
+.footer_banner2{
+	background-color:#0079c7 ;
+}
+.footer_banner3{
+	background-color:#2b4c99 ;
+}
+.flexColumn{
+	flex-direction: column;
+}
+.footer_area{
+	display: flex;
+}
+.footer_description{
+	flex: 1;
+	color: white;
+	flex-direction: space-around;
+
+}
+footer .widget_title_text{
+	display: flex;
+	color: white;
+	flex: 1;
+}
+footer .widget{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+.footer_copy{
+	border-top: 1px solid #2c2c2c;
+	height: 40px;
+	line-height: 40px;
+	color: #5c5c5c;
+	font-size: 12px;
+	margin-top: 30px;
 }
