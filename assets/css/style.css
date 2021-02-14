@@ -252,9 +252,10 @@ footer{
 	display: flex;
 }
 .footer_description{
+	display: flex;
 	flex: 1;
 	color: white;
-	flex-direction: space-around;
+	flex-direction: row;
 
 }
 footer .widget_title_text{
