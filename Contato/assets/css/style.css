@@ -1,0 +1,80 @@
+body{
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+header{
+	display:flex;
+	justify-content: center;
+	height: 120px;
+}
+
+.container{
+	display: flex;
+	width: 990px;
+	justify-content: space-between;
+
+}
+
+.logo{
+	align-self: center;
+}
+
+.menu{
+padding: 10px;
+align-items: center;
+display: flex;
+}
+
+.menu a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: #727272;
+}
+
+.menu li,ul{
+	list-style: none;
+	align-self: center;
+	text-transform: uppercase;
+	display: flex;
+	font-family: arial;
+	padding: 15px;
+}
+
+nav .contato a,
+nav a:hover{
+	background-color: #39aae1;
+	height: 30px;
+	color: white;
+}
+
+.banner{
+	display: flex;
+	justify-content: center;
+	background-image: url('../images/img1.jpg');
+	background-position: center;
+	background-size: cover;
+	height:670px;
+}
+
+}
+form{
+	display: block;
+	text-align: center;	
+}
+.formulario input{
+	display: flex;
+	border: 2px solid green;
+	border-radius: 10px;
+	text-align: center;
+}
+.formulario{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.formulario2{
+	display: flex;
+	justify-content: center;
+	align-items: left;
+}
